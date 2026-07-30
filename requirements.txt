@@ -1,0 +1,7 @@
+Flask>=3.0
+Werkzeug>=3.0
+psycopg2-binary>=2.9      # acesso/usuários no Postgres (1-acesso)
+openpyxl>=3.1            # exportação em Excel (4-drill-excel)
+gunicorn>=21             # produção (WSGI)
+python-dotenv>=1.0       # carregar .env em scripts de build
+# catworld_client.py (5-dados-catworld) usa só a stdlib (urllib/gzip/hashlib)
