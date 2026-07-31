@@ -1,8 +1,14 @@
 # padrao_dashs — Padrões reutilizáveis de dashboards (modelo VAD)
 
-Kit de peças prontas para montar um dashboard novo no mesmo padrão do **Dash VAD**
+Kit de peças prontas para montar um dashboard no mesmo padrão do **Dash VAD**
 (Flask + páginas HTML geradas por Python + dados no CatWorld). Copie a pasta do
 padrão que precisa e siga o `README.md` de cada uma.
+
+> ⚠️ **Padrão oficial da equipe 77 = [`77-Indicadores/77system`](https://github.com/77-Indicadores/77system)** (Next.js + Prisma + Auth.js).
+> **Sistemas novos devem usar o 77system.** Este `padrao_dashs` é a **variante leve (Flask)**,
+> para entregas rápidas/simples ou manutenção do modelo VAD. As boas práticas do 77system
+> (docs/ADR, RBAC por contrato YAML, dados materializados por padrão, export Excel/PDF)
+> valem como referência aqui também.
 
 ## Princípio central
 > **Acesso (login) → banco Postgres.  Dados importados → CatWorld.**
